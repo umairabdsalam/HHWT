@@ -9,7 +9,18 @@ import SwiftUI
 
 struct TabDestinationsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: [.blue, .yellow]), startPoint: .topTrailing, endPoint: .bottomLeading)
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                HStack{
+                    Text("Destinations")
+                    Image(systemName: "globe")
+                }.font(.title)
+            }
+            .padding()
+        }
     }
 }
 

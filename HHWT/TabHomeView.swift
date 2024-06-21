@@ -9,13 +9,19 @@ import SwiftUI
 
 struct TabHomeView: View {
     var body: some View {
-        VStack {
-            HStack{
-                Text("Have Halal, Will Travel")
-                Image(systemName: "globe")
-            }.font(.title)
+        
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: [.blue, .yellow]), startPoint: .topTrailing, endPoint: .bottomLeading)
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                HStack{
+                    Text("Have Halal, Will Travel")
+                    Image(systemName: "airplane")
+                }.font(.title)
+            }
+            .padding()
         }
-        .padding()
     }
 }
 

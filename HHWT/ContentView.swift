@@ -13,8 +13,8 @@ struct ContentView: View {
         TabView {
             
             TabHomeView().tabItem {
-                Image(systemName: "house.fill")
-                Text("Home")
+                Image(systemName: "airplane")
+                Text("HHWT")
             }
             
             TabDestinationsView().tabItem {

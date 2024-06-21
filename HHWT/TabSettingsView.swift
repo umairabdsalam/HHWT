@@ -9,7 +9,18 @@ import SwiftUI
 
 struct TabSettingsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: [.blue, .yellow]), startPoint: .topTrailing, endPoint: .bottomLeading)
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                HStack{
+                    Text("Settings")
+                    Image(systemName: "gearshape.fill")
+                }.font(.title)
+            }
+            .padding()
+        }
     }
 }
 
