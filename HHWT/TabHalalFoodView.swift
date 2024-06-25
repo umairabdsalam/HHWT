@@ -18,6 +18,48 @@ struct TabHalalFoodView: View {
                     Text("Halal Food")
                     Image(systemName: "fork.knife.circle.fill")
                 }.font(.title)
+                
+                VStack {
+                    
+                    Image("halalfood")
+                        .resizable()
+                        .clipShape(Circle())
+                    
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                }
+                
+                VStack {
+                    
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                }
             }
             .padding()
         }

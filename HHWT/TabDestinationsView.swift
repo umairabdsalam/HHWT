@@ -18,6 +18,47 @@ struct TabDestinationsView: View {
                     Text("Destinations")
                     Image(systemName: "globe")
                 }.font(.title)
+                
+                VStack {
+                    Image("namaz")
+                        .resizable()
+                        .clipShape(Circle())
+                    
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                }
+                
+                VStack {
+                    
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                }
             }
             .padding()
         }

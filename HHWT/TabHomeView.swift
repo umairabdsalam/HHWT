@@ -17,8 +17,50 @@ struct TabHomeView: View {
             VStack {
                 HStack{
                     Text("Have Halal, Will Travel")
-                    Image(systemName: "airplane")
+                    Image(systemName: "house.fill")
                 }.font(.title)
+                VStack {
+                    
+                    Image("hhwt")
+                        .resizable()
+                        .clipShape(Circle())
+                    
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                }
+                
+                VStack {
+                    
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                }
+                
             }
             .padding()
         }

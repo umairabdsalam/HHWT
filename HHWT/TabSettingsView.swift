@@ -18,6 +18,45 @@ struct TabSettingsView: View {
                     Text("Settings")
                     Image(systemName: "gearshape.fill")
                 }.font(.title)
+                
+                VStack {
+                    
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                }
+                
+                VStack {
+                    
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                    HStack{
+                        Text("Blah........")
+                        Text("Blah........")
+                        Text("Blah........")
+                    }
+                }
+                
             }
             .padding()
         }

@@ -13,8 +13,13 @@ struct ContentView: View {
         TabView {
             
             TabHomeView().tabItem {
-                Image(systemName: "airplane")
+                Image(systemName: "house.fill")
                 Text("HHWT")
+            }
+            
+            TabHalalFoodView().tabItem {
+                Image(systemName: "fork.knife.circle.fill")
+                Text("Halal Food")
             }
             
             TabDestinationsView().tabItem {
@@ -22,9 +27,9 @@ struct ContentView: View {
                 Text("Destinations")
             }
             
-            TabHalalFoodView().tabItem {
-                Image(systemName: "fork.knife.circle.fill")
-                Text("Halal Food")
+            TabItineraryView().tabItem {
+                Image(systemName: "airplane")
+                Text("Itinerary")
             }
             
             TabSettingsView().tabItem {

@@ -15,6 +15,7 @@
 		7D084D7D2C20DEBB0035DB6B /* TabDestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D084D7C2C20DEBB0035DB6B /* TabDestinationsView.swift */; };
 		7D084D7F2C20DEC90035DB6B /* TabHalalFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D084D7E2C20DEC90035DB6B /* TabHalalFoodView.swift */; };
 		7D084D812C20DF170035DB6B /* TabSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D084D802C20DF170035DB6B /* TabSettingsView.swift */; };
+		7D084D832C2590530035DB6B /* TabItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D084D822C2590530035DB6B /* TabItineraryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7D084D7C2C20DEBB0035DB6B /* TabDestinationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabDestinationsView.swift; sourceTree = "<group>"; };
 		7D084D7E2C20DEC90035DB6B /* TabHalalFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabHalalFoodView.swift; sourceTree = "<group>"; };
 		7D084D802C20DF170035DB6B /* TabSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSettingsView.swift; sourceTree = "<group>"; };
+		7D084D822C2590530035DB6B /* TabItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItineraryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,12 @@
 		7D084D6B2C20DD900035DB6B /* HHWT */ = {
 			isa = PBXGroup;
 			children = (
+				7D084D862C25912E0035DB6B /* ItineraryPages */,
+				7D084D852C2590DF0035DB6B /* HalalfoodPages */,
+				7D084D842C2590BC0035DB6B /* DestinationPages */,
 				7D084D6C2C20DD900035DB6B /* HHWTApp.swift */,
 				7D084D6E2C20DD900035DB6B /* ContentView.swift */,
+				7D084D822C2590530035DB6B /* TabItineraryView.swift */,
 				7D084D802C20DF170035DB6B /* TabSettingsView.swift */,
 				7D084D7A2C20DEA30035DB6B /* TabHomeView.swift */,
 				7D084D7C2C20DEBB0035DB6B /* TabDestinationsView.swift */,
@@ -77,6 +83,27 @@
 				7D084D732C20DD910035DB6B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D084D842C2590BC0035DB6B /* DestinationPages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DestinationPages;
+			sourceTree = "<group>";
+		};
+		7D084D852C2590DF0035DB6B /* HalalfoodPages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HalalfoodPages;
+			sourceTree = "<group>";
+		};
+		7D084D862C25912E0035DB6B /* ItineraryPages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ItineraryPages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +178,7 @@
 			files = (
 				7D084D6F2C20DD900035DB6B /* ContentView.swift in Sources */,
 				7D084D7B2C20DEA30035DB6B /* TabHomeView.swift in Sources */,
+				7D084D832C2590530035DB6B /* TabItineraryView.swift in Sources */,
 				7D084D7F2C20DEC90035DB6B /* TabHalalFoodView.swift in Sources */,
 				7D084D6D2C20DD900035DB6B /* HHWTApp.swift in Sources */,
 				7D084D812C20DF170035DB6B /* TabSettingsView.swift in Sources */,
