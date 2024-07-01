@@ -16,6 +16,7 @@
 		7D084D7F2C20DEC90035DB6B /* TabHalalFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D084D7E2C20DEC90035DB6B /* TabHalalFoodView.swift */; };
 		7D084D812C20DF170035DB6B /* TabSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D084D802C20DF170035DB6B /* TabSettingsView.swift */; };
 		7D084D832C2590530035DB6B /* TabItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D084D822C2590530035DB6B /* TabItineraryView.swift */; };
+		7DA17A152C336A4A006599E4 /* BucketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA17A142C336A4A006599E4 /* BucketListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		7D084D7E2C20DEC90035DB6B /* TabHalalFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabHalalFoodView.swift; sourceTree = "<group>"; };
 		7D084D802C20DF170035DB6B /* TabSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSettingsView.swift; sourceTree = "<group>"; };
 		7D084D822C2590530035DB6B /* TabItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItineraryView.swift; sourceTree = "<group>"; };
+		7DA17A142C336A4A006599E4 /* BucketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				7D084D6C2C20DD900035DB6B /* HHWTApp.swift */,
 				7D084D6E2C20DD900035DB6B /* ContentView.swift */,
 				7D084D822C2590530035DB6B /* TabItineraryView.swift */,
+				7DA17A142C336A4A006599E4 /* BucketListView.swift */,
 				7D084D802C20DF170035DB6B /* TabSettingsView.swift */,
 				7D084D7A2C20DEA30035DB6B /* TabHomeView.swift */,
 				7D084D7C2C20DEBB0035DB6B /* TabDestinationsView.swift */,
@@ -180,6 +183,7 @@
 				7D084D7B2C20DEA30035DB6B /* TabHomeView.swift in Sources */,
 				7D084D832C2590530035DB6B /* TabItineraryView.swift in Sources */,
 				7D084D7F2C20DEC90035DB6B /* TabHalalFoodView.swift in Sources */,
+				7DA17A152C336A4A006599E4 /* BucketListView.swift in Sources */,
 				7D084D6D2C20DD900035DB6B /* HHWTApp.swift in Sources */,
 				7D084D812C20DF170035DB6B /* TabSettingsView.swift in Sources */,
 				7D084D7D2C20DEBB0035DB6B /* TabDestinationsView.swift in Sources */,
